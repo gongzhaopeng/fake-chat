@@ -8,8 +8,8 @@ function FakeChat() {
     return (
         <Box sx={{
             backgroundImage: `url(${backgroundImage})`,
-            paddingLeft: 4,
-            paddingRight: 4,
+            paddingLeft: 2,
+            paddingRight: 2,
             paddingTop: 6,
             paddingBottom: 36
         }}>
