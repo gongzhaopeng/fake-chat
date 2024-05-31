@@ -22,7 +22,7 @@ function FakeChat() {
                     sx={{
                         height: 600,
                         border: 0,
-                        allow: 'microphone *'
+                        allow: "microphone https://gongzhaopeng.github.io"
                     }}
                 />
             </Card>
