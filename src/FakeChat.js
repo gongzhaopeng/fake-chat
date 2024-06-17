@@ -4,6 +4,8 @@ import {BrowserRouter, Routes, Route, Outlet} from 'react-router-dom'
 
 import Box from '@mui/material/Box';
 
+import Text2Speech from "./components/tts/Text2Speech";
+
 import backgroundImage from './assets/images/cosmic-shear.jpg'
 
 function FakeChat() {
@@ -16,7 +18,7 @@ function FakeChat() {
                         paddingLeft: 2,
                         paddingRight: 2,
                         paddingTop: 6,
-                        paddingBottom: 36
+                        paddingBottom: 128
                     }}>
                         <Outlet/>
                     </Box>
@@ -33,7 +35,7 @@ function FakeChat() {
                         />
                     }/>
                     <Route path='tts/custom-voice' element={
-                        <h2> Hey, it's Ke Wang speaking! </h2>
+                        <Text2Speech/>
                     }/>
                 </Route>
             </Routes>
