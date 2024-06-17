@@ -16,7 +16,6 @@ function Text2Speech() {
                         variant='filled'
                         label="文本"
                         defaultValue="请输入您想让王老师进行个性化人声播报的文本!"
-                        size='large'
                         sx={{
                             width: '100%'
                         }}
