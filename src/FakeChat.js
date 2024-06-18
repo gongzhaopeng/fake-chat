@@ -25,6 +25,7 @@ function FakeChat() {
                 }>
                     <Route index element={
                         <iframe
+                            title='xiling.digital-figure'
                             src='https://xiling.cloud.baidu.com/cloud/web?appId=i-qe5q7sk9na8m7&appKey=j3hq5kzws7vwtx3rs8t8&projectId=6657e8a316ed7222fa5e511d&configVersion=publish&chatMode=isStream&usingAudio=userMedia&directLogin=1&mode=inline&ttsSpeed=5&ttsPitch=5&videoBg=rgb(0,0,0,0)&showMessage=false'
                             allow="microphone *"
                             style={{
