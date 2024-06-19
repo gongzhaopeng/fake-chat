@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import {BrowserRouter, Routes, Route, Outlet} from 'react-router-dom'
+import {HashRouter, Routes, Route, Outlet} from 'react-router-dom'
 
 import Box from '@mui/material/Box';
 
@@ -10,9 +10,9 @@ import backgroundImage from './assets/images/cosmic-shear.jpg'
 
 function FakeChat() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path='fake-chat' element={
+                <Route path='/' element={
                     <Box sx={{
                         backgroundImage: `url(${backgroundImage})`,
                         paddingLeft: 2,
@@ -40,7 +40,7 @@ function FakeChat() {
                     }/>
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
